@@ -5,8 +5,8 @@ This widget has around 550 job categories. Very useful if you are building job s
 
 Live demo here https://sateeshpeetha.github.io/Searchable-Dropdown-Menu-with-AngularjS/
 
-## Include the css, js files and add the below add. Make changes to config.js for your menu requirements.
-### tab to add in your html file below.
+## Include the css, js files and add the below tag. Make changes to config.js for your menu requirements.
+### tag to add in your html file below.
 `<dropdown> </dropdown>`
 
 
