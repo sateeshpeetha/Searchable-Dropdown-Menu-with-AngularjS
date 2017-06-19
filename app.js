@@ -8,14 +8,19 @@ function dropdownCtl($scope, $element, $attrs) {
 	
    
    }
-
-function toggle() {
+function toggle(val) {
 		
+if (val )
+{
+document.getElementById("dropdownmenu").style.display = val;
+}
+else {
 		value = document.getElementById("dropdownmenu").style.display;
 		
 		if ( value == "block") {document.getElementById("dropdownmenu").style.display = "none"; }
 		else {document.getElementById("dropdownmenu").style.display = "block"; }
-	}
+}
+}
    
    app.component('dropdown', {
 
